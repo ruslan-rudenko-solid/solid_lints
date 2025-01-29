@@ -87,6 +87,7 @@ class PreferMatchFileNameRule extends SolidLintRule {
       if (_doNormalizedNamesMatch(
         resolver.source.fullName,
         firstDeclaration.token.lexeme,
+        // ignore: curly_braces_in_flow_control_structures
       )) return;
 
       final nodeType =
