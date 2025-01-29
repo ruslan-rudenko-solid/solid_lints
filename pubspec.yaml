@@ -20,7 +20,7 @@ dependencies:
 
 dev_dependencies:
   args: ^2.4.2
-  # These packages are manda tory for some of tests
+  # These packages are mandatory for some of tests
   flutter:
     sdk: flutter
   test: ^1.24.6
